@@ -1,0 +1,117 @@
+#main .menu {
+  float: left;
+  border: 1px solid #aaa;
+  width: 200px;
+  padding: 10px;
+}
+#main .menu h5 {
+  text-align: center;
+  font-size: 18px;
+}
+#main .menu li {
+  margin: 20px;
+}
+#main .content {
+  border: 1px solid #aaa;
+  float: right;
+  padding: 10px;
+  width: 750px;
+}
+#main .content .msg {
+  margin: 0 15px 10px 10px;
+  background-color: #eee;
+  border: 1px dotted #aaa;
+}
+#main .content .msg .msgt {
+  padding: 10px;
+}
+#main .content .msg .msgt h5 {
+  font-size: 20px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+}
+#main .content .msg .msgt h5 small {
+  font-size: 16px;
+  font-weight: normal;
+  color: #5577ee;
+}
+#main .content .msg .msgt h5 span {
+  font-size: 8px;
+  display: inline-block;
+  vertical-align: super;
+  text-indent: 8px;
+}
+#main .content .msg .msgt h5 .unread {
+  color: red;
+}
+#main .content .msg .msgt h5 .readed {
+  color: #999;
+}
+#main .content .msg .msgt span.unfold,
+#main .content .msg .msgt span.del {
+  display: block;
+  float: right;
+  padding: 0 10px;
+  letter-spacing: 3px;
+  font-size: 8px;
+}
+#main .content .msg .msgc {
+  padding: 10px;
+  text-indent: 30px;
+}
+#main .content .msg .msgc li {
+  padding: 10px;
+}
+#main .content .msg .msgc li .me {
+  font-size: 20px;
+  font-weight: bold;
+}
+#main .content .msg .msgc li .he {
+  font-size: 15px;
+  text-indent: 20px;
+  display: inline-block;
+}
+#newmsg {
+  padding: 10px 0 10px 20px;
+  border: 1px dotted #aaa;
+}
+#newmsg .inputbox {
+  padding-bottom: 10px;
+}
+#newmsg .inputbox label {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+}
+#newmsg .inputbox input {
+  height: 25px;
+  line-height: 25px;
+  padding-left: 5px;
+}
+#newmsg .inputbox textarea {
+  text-indent: 5px;
+}
+#newmsg .subm {
+  display: inline-block;
+  width: 130px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #555;
+  border-radius: 2px;
+  background-color: #6095c1;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 60px;
+}
+.centertitle {
+  text-align: center;
+  padding: 10px;
+  color: blue;
+}
+.msgempty {
+  text-align: center;
+  padding: 10px;
+  color: red;
+}

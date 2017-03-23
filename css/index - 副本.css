@@ -1,0 +1,67 @@
+#main .menu {
+  float: left;
+  border: 1px solid #aaa;
+  width: 200px;
+  padding: 10px;
+}
+#main .menu h5 {
+  text-align: center;
+  font-size: 18px;
+}
+#main .menu li {
+  margin: 20px;
+}
+#main .content {
+  border: 1px solid #aaa;
+  float: right;
+  padding: 10px;
+  width: 750px;
+}
+#main .content .msg {
+  margin: 0 15px 10px 10px;
+  background-color: #eee;
+}
+#main .content .msg .msgt {
+  padding: 10px;
+}
+#main .content .msg .msgt h5 {
+  font-size: 25px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+}
+#main .content .msg .msgt h5 span {
+  font-size: 8px;
+  display: inline-block;
+  vertical-align: super;
+  text-indent: 8px;
+}
+#main .content .msg .msgt h5 .unread {
+  color: red;
+}
+#main .content .msg .msgt h5 .readed {
+  color: #999;
+}
+#main .content .msg .msgt span.unfold,
+#main .content .msg .msgt span.del {
+  display: block;
+  float: right;
+  padding: 0 10px;
+  letter-spacing: 3px;
+  font-size: 8px;
+}
+#main .content .msg .msgc {
+  padding: 10px;
+  text-indent: 30px;
+}
+#main .content .msg .msgc li {
+  padding: 10px;
+}
+#main .content .msg .msgc li .me {
+  font-size: 20px;
+  font-weight: bold;
+}
+#main .content .msg .msgc li .he {
+  font-size: 15px;
+  text-indent: 20px;
+  display: inline-block;
+}

@@ -1,0 +1,88 @@
+#main {
+  font: 14px/28px 'Microsoft YaHei', sans-serif;
+}
+#main h3 {
+  height: 20px;
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+}
+#userreg {
+  border-top: 1px solid #999;
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0 20px 40px;
+}
+#userreg .regline {
+  width: 800px;
+  margin-bottom: 60px;
+  line-height: 30px;
+  clear: both;
+}
+#userreg .regline .regtitle {
+  width: 100px;
+  float: left;
+  padding-right: 23px;
+  text-align: right;
+}
+#userreg .regline .regimpt {
+  margin-left: -15px;
+  float: left;
+  color: red;
+}
+#userreg .regline .regbox {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 200px;
+}
+#userreg .regline .regbox .regipt {
+  width: 190px;
+  padding: 4px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+#userreg .regline .regbox label {
+  margin: 0 5px 0 20px;
+}
+#userreg .regline .regbox .border {
+  width: 200px;
+  height: 15px;
+  background-color: #ddd;
+}
+#userreg .regline .regbox .strong {
+  width: 30%;
+  height: 15px;
+  line-height: 15px;
+  background-color: red;
+  font: 10px;
+  text-align: center;
+}
+#userreg .regline .regtip {
+  width: 465px;
+  color: #666;
+  margin-left: 10px;
+  float: left;
+  positon: relative;
+  display: inline;
+}
+#submit {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #6095c1;
+  color: white;
+  font-size: 16px;
+  font-weight: 700px;
+  text-align: center;
+  cursor: pointer;
+}
